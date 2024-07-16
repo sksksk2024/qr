@@ -1,0 +1,45 @@
+@use '../util/' as *;
+
+.body {
+  height: 10vh;
+  background: var(--ltgray);
+}
+
+.QR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: rem(20);
+  padding: rem(20) rem(20) rem(70) rem(20);
+  margin: 2.313rem;
+
+  @media (min-width: 90em) {
+    margin: 20rem 35rem 2rem 35rem;
+  }
+
+  img {
+    max-width: rem(350);
+    max-height: rem(350);
+    border-radius: rem(20);
+  }
+
+  &__title, p {
+    margin: rem(20) rem(20) 0 rem(20);
+  }
+
+  &__title {
+    display: grid;
+    justify-content: center;
+    font-size: rem(30);
+    font-weight: 700;
+    font-family: --font-outfit;
+    color: var(--dkblue);
+  }
+
+  p {
+    color: var(--grblue);
+    padding: rem(21);
+  }
+}

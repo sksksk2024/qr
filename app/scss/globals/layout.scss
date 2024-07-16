@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+.container {
+  display: grid;
+  justify-items: start; /* Align to start horizontally */
+  align-items: start;   /* Align to start vertically */
+
+  @include breakpoint(large) {
+    padding: 3;
+  }
+}

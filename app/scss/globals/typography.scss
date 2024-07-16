@@ -1,0 +1,41 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: rem(24);
+  margin-bottom: rem(3);
+  // @include breakpoint(large) {
+  //   font-size: rem(28);
+  // }
+}
+
+h2 {
+  font-size: rem(24);
+  margin-bottom: rem(24);
+  // color: ;
+}
+
+  p {
+    font-size: rem(21);
+    font-family: --font-outfit;
+  }
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: var(--white);
+
+}
+
+br {
+  margin-top: rem(5);
+  margin-bottom: rem(0);
+}

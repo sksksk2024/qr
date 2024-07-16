@@ -1,6 +1,8 @@
 @use '../util/' as *;
 
 .body {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
   height: 10vh;
   background: var(--ltgray);
 }
@@ -8,12 +10,12 @@
 .QR {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-self: center;
   background-color: var(--white);
   border-radius: rem(20);
   padding: rem(20) rem(20) rem(70) rem(20);
   margin: 2.313rem;
+  width: rem(400);
 
   @media (min-width: 90em) {
     margin: 20rem 35rem 2rem 35rem;

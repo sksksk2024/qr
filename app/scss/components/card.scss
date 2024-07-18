@@ -3,7 +3,6 @@
 .body {
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
-  height: 10vh;
   background: var(--ltgray);
 }
 
@@ -28,7 +27,7 @@
   }
 
   &__title, p {
-    margin: rem(20) rem(20) 0 rem(20);
+    margin: rem(0) rem(10) 0 rem(0);
   }
 
   &__title {
